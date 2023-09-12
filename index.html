@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruits Brust</title>
+
+    <!-- daysiui cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind cdn link attached -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+        <nav class="max-w-full mx-5 md:mx-10 lg:mx-36">
+            <div class="navbar bg-base-100 bg-[#F85559] rounded-[50px] my-5 ">
+                <div class="navbar-start hidden lg:flex gap-4 p-4 ">
+                  <div class=" ">
+        
+                    <ul tabindex="0" class=" flex gap-4 p-4">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center ml-4">
+                    <img class="w-6" src="./images/logo.png" alt="">
+                  <a class="btn btn-ghost normal-case text-left px-1 text-xl text-[#FFF]">Fruit Burst</a>
+                </div>
+                <div class="navbar-end ml-24 sm:ml-44 md:ml-48 lg:ml-6 lg:px-0">
+
+                    <div class="hidden md:hidden lg:relative lg:flex lg:items-center lg:mr-5">
+                        <input type="text" name="search" class="py-1 px-2 rounded-[50px] border-none">
+                        
+                        <div class="absolute ml-40">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                        </div>
+                        
+                    </div>
+
+                    <div class="dropdown lg:hidden xl:hidden 2xl:hidden mr-12 md:mr-10">
+                        <label tabindex="0" class="btn btn-ghost btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28 ">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                            
+                        </ul>
+                        
+                    </div>
+ 
+                  
+                </div>
+              </div> 
+        </nav>
+    </header>
 </body>
 </html>
