@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruits Brust</title>
 
+    <!-- fonawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- daysiui cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
 
@@ -138,8 +141,103 @@
                  
             </div>
 
+
             
-            
+        </section>
+
+        <!-- deal section -->
+        <section class="deal max-w-screen-xl mx-5 md:mx-10 lg:mx-36 mt-40">
+            <div class="flex items-center justify-between">
+                <div class="max-w-md">
+                    <h1 class="text-4xl text-[#121212]">Deal of the day</h1>
+                    <p class="text-xs text-gray-500">Every fruit has its health benefits. You should keep healthy fruits on your daily dits. You can find fruits in the local, supermarket, or online but it's not satisfied you. We offer premium quality local and imported fresh fruits online</p>
+                </div>
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15 ;"></span>
+                                
+                                
+                            </span>
+                            <div class="text-[16pxa] text-gray-500">Days</div>
+                            
+                        </div> 
+                        <div class="flex flex-col">
+                            <div class="flex gap-4 items-center justify-center">
+                                <div class="text-2xl">
+                                    <i class="fa fa-solid fa-ellipsis-vertical"></i>
+    
+                                </div>
+                                <span class="countdown font-mono text-5xl">
+                                
+                                    <span style="--value:10;"></span>
+                                </span>
+
+                            </div>
+                            
+                            <div class="text-[16pxa] text-gray-500 ml-6">Hours</div>
+                            
+                        </div> 
+                        <div class="flex flex-col">
+                            <div class="flex gap-4 items-center justify-center">
+                                <div class="text-2xl">
+                                    <i class="fa fa-solid fa-ellipsis-vertical"></i>
+    
+                                </div>
+                                <span class="countdown font-mono text-5xl">
+                                
+                                    <span style="--value:24;"></span>
+                                </span>
+
+                            </div>
+                            <div class="text-[16pxa] text-gray-500 ml-5">Minutes</div>
+                            
+                        </div> 
+                        <div class="flex flex-col">
+                            <div class="flex gap-4 items-center justify-center">
+                                <div class="text-2xl">
+                                    <i class="fa fa-solid fa-ellipsis-vertical"></i>
+    
+                                </div>
+                                <span class="countdown font-mono text-5xl">
+                                
+                                    <span style="--value:49;"></span>
+                                </span>
+
+                            </div>
+                            <div class="text-[16pxa] text-gray-500 ml-5">Seconds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card -->
+            <div class="mt-12">
+                <div class="card w-72 bg-base-100 shadow-xl ">
+                    <figure class="px-8 pt-10">
+                        <img src="./images/fruit1.png" alt="Fruit" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">12.90$ - 18.85$</h2>
+                        
+                        <div class="border-zinc-400 w-44 h-1"><hr></div>
+                        <p>Apples</p>
+                        <div>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class=" px-5 py-2 text-[#F85559]">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
