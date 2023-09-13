@@ -17,7 +17,7 @@
 <body>
     <header>
         <nav class="max-w-full mx-5 md:mx-10 lg:mx-36">
-            <div class="navbar bg-base-100 bg-[#F85559] rounded-[50px] my-5 ">
+            <div class="navbar bg-base-100 bg-none md:bg-[#F85559] rounded-[50px] my-5 ">
                 <div class="navbar-start hidden lg:flex gap-4 p-4 ">
                   <div class=" ">
         
@@ -31,7 +31,7 @@
                 </div>
                 <div class="navbar-center ml-4">
                     <img class="w-6" src="./images/logo.png" alt="">
-                  <a class="btn btn-ghost normal-case text-left px-1 text-xl text-[#FFF]">Fruit Burst</a>
+                  <a class="btn btn-ghost normal-case text-left px-1 text-xl md:text-[#FFF]">Fruit Burst</a>
                 </div>
                 <div class="navbar-end ml-24 sm:ml-44 md:ml-48 lg:ml-6 lg:px-0">
 
@@ -64,11 +64,11 @@
         </nav>
     </header>
     <main>
-        <section class="banner">
-            <div class="carousel max-w-screen-xl mx-5 md:mx-10 lg:mx-36 rounded-xl">
-                <div id="slide1" class="carousel-item relative w-full">
+        <section class="banner max-w-screen-xl">
+            <div class="carousel  mx-5 md:mx-10 lg:mx-36 rounded-xl w-fit">
+                <div id="slide1" class="carousel-item relative  md:w-full ">
 
-                    <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
+                    <div class="hero min-h-screen w-full" style="background-image: url(./images/banner1.png);">
                         <div class="hero-overlay bg-opacity-50"></div>
                         <div class="hero-content text-center text-neutral-content">
                           <div class="max-w-md">
@@ -84,7 +84,7 @@
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full">
+                <div id="slide2" class="carousel-item relative  md:w-full">
 
                     <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
                         <div class="hero-overlay bg-opacity-50"></div>
@@ -102,7 +102,7 @@
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative w-full">
+                <div id="slide3" class="carousel-item relative w-9/12 md:w-full">
 
                     <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
                         <div class="hero-overlay bg-opacity-50"></div>
@@ -120,7 +120,7 @@
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div> 
-                <div id="slide4" class="carousel-item relative w-full">
+                <div id="slide4" class="carousel-item relative  md:w-full">
                     
 
                     <div class="hero min-h-screen" style="background-image: url(./images/banner4.png);">
@@ -419,7 +419,7 @@
 
         <!-- meet the team section -->
         <section class="max-w-screen-xl mx-5 md:mx-10 lg:mx-36 mt-20 md:mt-28">
-            <div class="hero h-[500px]" style="background-image: url(./images/banner1.png);">
+            <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content flex flex-col">
                     
@@ -430,7 +430,7 @@
                     </div>
                     
 
-                    <div class="grid grid-cols-4 items-center justify-between gap-5">
+                    <div class="grid md:grid-cols-4  items-center justify-between gap-5">
                         <div class="flex flex-col justify-center items-center">
                             <div class=" w-20 md:w-24">
                                 <img src="./images/member1.png" alt="">
@@ -495,6 +495,90 @@
             </div>
 
         </section>
+
+        <!-- choose section -->
+        <section class="max-w-screen-xl mx-5 md:mx-10 lg:mx-36 mt-20 md:mt-28">
+            <div class="mt-32">
+                <h1 class="text-2xl md:text-4xl text-center mb-3">Why Choose Us</h1>
+                <p class="text-center text-xs leading-6">
+                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 items-center gap-3 mt-12">
+                <div>
+                    <div class="flex items-center gap-5 mb-5">
+                        <div class="text-2xl">
+                            <i class="fa fa-solid fa-user-group"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-sm md:text-xl mb-2">Dedicated Team</h2>
+                            <div class="w-32  text-xl border-[1px] mb-3"><hr></div>
+                            <p class="text-xs leading-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5 mb-5">
+                        <div class="text-2xl">
+                            <i class="fa fa-regular fa-heart"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-sm md:text-xl mb-2">Fresh is Best</h2>
+                            <div class="w-32  text-xl border-[1px] mb-3"><hr></div>
+                            <p class="text-xs leading-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5 mb-5">
+                        <div class="text-2xl">
+                            <i class="fa fa-solid fa-gifts"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-sm md:text-xl mb-2">Gift Certificates</h2>
+                            <div class="w-32  text-xl border-[1px] mb-3"><hr></div>
+                            <p class="text-xs leading-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/whychoose1.png" alt="">
+                </div>
+                <div>
+                    <div class="flex items-center gap-5 mb-5">
+                        
+                        <div class="text-right">
+                            <h2 class="text-xl md:text-2xl mb-2">Integrated Supplier</h2>
+                            <div class="w-32  text-xl border-[1px] mb-3 ml-auto"><hr></div>
+                            <p class="text-xs leading-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="text-2xl">
+                            <i class="fa fa-solid fa-user-group"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5 mb-5">
+                        
+                        <div class="text-right">
+                            <h2 class="text-xl md:text-2xl mb-2">Sustainable Practice</h2>
+                            <div class="w-32  text-xl border-[1px] mb-3 ml-auto"><hr></div>
+                            <p class="text-xs leading-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="text-2xl">
+                            <i class="fa fa-solid fa-user-group"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5 mb-5">
+                        
+                        <div class="text-right">
+                            <h2 class="text-xl md:text-2xl mb-2">The Benefits Only</h2>
+                            <div class="w-32  text-xl border-[1px] mb-3 ml-auto"><hr></div>
+                            <p class="text-xs leading-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        </div>
+                        <div class="text-2xl">
+                            <i class="fa fa-solid fa-user-group"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
 </html>
